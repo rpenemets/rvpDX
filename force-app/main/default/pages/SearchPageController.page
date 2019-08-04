@@ -1,0 +1,9 @@
+<apex:page controller="SearchPageController">
+    <apex:form >
+        <apex:repeat value="{!$ObjectType.Account.FieldSets.YourFieldSet}" var="field">
+            <apex:outputText value="{!field.Label}"/>
+            <apex:inputField value="{!anAccount[field]}"/>
+            <br/>
+        </apex:repeat>
+    </apex:form>
+</apex:page>

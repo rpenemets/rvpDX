@@ -1,0 +1,19 @@
+<apex:page renderAs="Pdf" showHeader="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false" >
+<!-- <apex:stylesheet value="{!URLFOR($Resource.page, 'page.css')}"/> -->
+<html>
+    <head>
+        <style>
+            @page {
+                 size: 2in 3in;
+                @top-center {
+                    content: "Sample";
+                }
+                @bottom-center {
+                    content: "Page " counter(page) " of " counter(pages);
+                }
+            }
+        </style>
+    </head>
+    </html>
+  
+</apex:page>

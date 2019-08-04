@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_rate_per_hour</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(Consultant_Employed__c,  ISBLANK(Employee_rate_per_hour__c)  , FALSE)</errorConditionFormula>
+    <errorDisplayField>Employee_rate_per_hour__c</errorDisplayField>
+    <errorMessage>Please fill out the employee billable hour rate</errorMessage>
+</ValidationRule>

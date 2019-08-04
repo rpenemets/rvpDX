@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emp_Bolg_Preivew</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Emp Bolg Preivew</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/{!Sysintelli__c.Id}/e?retURL=%2Fa0bi000000Zj000&amp;_CONFIRMATIONTOKEN=VmpFPSxNakF4Tmkwd05pMHlORlF4TXpvMU1Ub3pOaTR3TmpoYSxwaFdGZlZEOTRHUDBjejRTOE4xb21JLE1qWTVaREU1&amp;common.udd.actions.ActionsUtilORIG_URI=%2Fa0bi000000Zj000%2Fe</url>
+</WebLink>

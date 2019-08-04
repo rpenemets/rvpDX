@@ -1,0 +1,8 @@
+<apex:page controller="Testcontroler" tabStyle="Account" >
+  <apex:form >
+      <apex:pageBlock title="GET INFO OF THE ACCOUNT YOU WANT AND UPDATE IT">
+          <apex:inputField value="{!ReturnAccount.name}"/>
+          <apex:commandButton action="{!save}" value="update"/> 
+      </apex:pageBlock>
+  </apex:form>
+</apex:page>

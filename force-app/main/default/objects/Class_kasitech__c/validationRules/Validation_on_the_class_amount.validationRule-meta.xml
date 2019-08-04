@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_the_class_amount</fullName>
+    <active>true</active>
+    <errorConditionFormula>Class_Amount__c  &gt;=  100</errorConditionFormula>
+    <errorDisplayField>Class_Amount__c</errorDisplayField>
+    <errorMessage>Class amount cannot be more than 99.99</errorMessage>
+</ValidationRule>

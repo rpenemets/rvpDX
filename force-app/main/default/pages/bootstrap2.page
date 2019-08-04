@@ -1,0 +1,25 @@
+<apex:page docType="html-5.0" 
+    cache="false" 
+    standardStylesheets="false" 
+    showHeader="false" 
+    >
+    
+<apex:composition template="bootstrap">
+ <div class="container" id="container" >                
+                <div class="row" id="fullrow">
+                     <div class="well">
+                     <apex:form >
+                      <apex:pageMessages /> 
+
+                      <apex:pageBlock title="Application Process">
+                      <div class="form-group">
+                                  <label class="col-lg-2 control-label">Applicant  </label>        
+                      </div>  
+                      </apex:pageBlock>         
+                      </apex:Form>
+                     
+                     </div>
+                    </div>
+                   </div>
+  </apex:composition>
+</apex:page>

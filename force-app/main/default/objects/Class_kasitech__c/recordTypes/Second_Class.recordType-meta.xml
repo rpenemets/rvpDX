@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Second_Class</fullName>
+    <active>true</active>
+    <label>Second Class</label>
+    <picklistValues>
+        <picklist>Class_rating__c</picklist>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Courses__c</picklist>
+        <values>
+            <fullName>%2ENet course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Java course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>peoplesoft course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>salesforce course</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

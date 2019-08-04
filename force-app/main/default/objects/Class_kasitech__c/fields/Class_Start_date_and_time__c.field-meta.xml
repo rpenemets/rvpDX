@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class_Start_date_and_time__c</fullName>
+    <defaultValue>NOW()</defaultValue>
+    <externalId>false</externalId>
+    <label>Class Start date and time</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

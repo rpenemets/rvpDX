@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_needs_a_roll_number</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(IsEmployee__c,IF(ISBLANK(Employee_roll_Number__c),TRUE, FALSE ) ,FALSE)</errorConditionFormula>
+    <errorDisplayField>Employee_roll_Number__c</errorDisplayField>
+    <errorMessage>Please fill the employee roll number</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Idea</tabs>
+    <tabs>standard-IdeaTheme</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>MyUH__c</tabs>
+    <tabs>Deapartment__c</tabs>
+    <tabs>School__c</tabs>
+    <tabs>course__c</tabs>
+    <tabs>lab__c</tabs>
+    <tabs>Class_kasitech__c</tabs>
+    <tabs>plan__c</tabs>
+    <tabs>plan_child__c</tabs>
+    <tabs>Precinct__c</tabs>
+    <tabs>Voter__c</tabs>
+    <tabs>Voter_Donation__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>HR_Object__c</tabs>
+</CustomApplication>

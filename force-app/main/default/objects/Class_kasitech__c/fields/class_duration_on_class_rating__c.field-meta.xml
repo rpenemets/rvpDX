@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>class_duration_on_class_rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(YEAR( DATEVALUE( CreatedDate ) )   +  VALUE(Text( Class_rating__c )), MONTH(DATEVALUE( CreatedDate )) ,  DAY( DATEVALUE( CreatedDate )) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>class duration on class rating</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
